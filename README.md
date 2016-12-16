@@ -22,7 +22,7 @@ Support Garena login
             android:layout_height="wrap_content"
             android:id="@+id/btn_glogin" />
             
-  4. In your `onCreate` method (or `onCreateView` for a fragment), bind the
+ 4. In your `onCreate` method (or `onCreateView` for a fragment), bind the
      widget to the `GLoginButton`.
 
          //init GLoginButton
@@ -44,7 +44,7 @@ Support Garena login
                  public void onGetTokenError (String error) {}
          });
          
-  5. To logout, use GLogin.getInstance().logoutG(Context, LogoutCallback)
+ 5. To logout, use GLogin.getInstance().logoutG(Context, LogoutCallback)
   
          GLogin.getInstance().logoutG(MainActivity.this, new LogoutCallback() {
                     @Override
@@ -54,7 +54,7 @@ Support Garena login
                     public void onError (String error) {}
                 });
                 
-  6. To get user infomation after login, use GLogin.getInstance().getUserInfo(Context, GetUserInfoCallback)
+ 6. To get user infomation after login, use GLogin.getInstance().getUserInfo(Context, GetUserInfoCallback)
   
          GLogin.getInstance().getUserInfo(MainActivity.this, new GetUserInfoCallback() {
                     @Override
@@ -64,7 +64,7 @@ Support Garena login
                     public void onError (String error) {}
                 });
                 
-  7. *(Optional)* If you don't want to use GLoginButton, you can call GLogin.getInstance().loginG() directly
+ 7. *(Optional)* If you don't want to use GLoginButton, you can call GLogin.getInstance().loginG() directly
    
          GLogin.getInstance().loginG(context, config, loginCallback);
          
