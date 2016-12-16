@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VETV STREAM</string>
+    <string name="loginProgress">Đăng nhập...</string>
+    <string name="loginfail_message">Đăng nhập thất bại</string>
+    <string name="logincancel_message">Đăng nhập bị hủy</string>
+    <string name="loginGarena">Đăng nhập với Garena</string>
+</resources>

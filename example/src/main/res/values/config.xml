@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    https://auth.garena.com/oauth/login?client_id={app­id}&redirect_uri={redirect­uri}&response_t
+
+    ype=token-->
+    <string name="garena_login_url">https://auth.garena.com/oauth/login?</string>
+    <string name="garena_login_appid">10035</string>
+    <string name="garena_login_appkey">837d93e23f51439fef8a23975a3c1d6b8c542ff535cf7756b05869d6d95da512</string>
+    <string name="garena_login_redirect">http://beta.vetv.vn/mobile/glogin</string>
+
+    <string name="garena_login_location">vi-VN</string>
+
+    <string name="garena_login_form" formatted="false">%sclient_id=%s&amp;redirect_uri=%s&amp;response_type=token&amp;locale=%s"</string>
+
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VETV STREAM</string>
+    <string name="loginProgress">Logging in...</string>
+    <string name="loginfail_message">Login failed!</string>
+    <string name="logincancel_message">Login canceled!</string>
+    <string name="loginGarena">Log in with Garena</string>
+</resources>

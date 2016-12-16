@@ -1,3 +1,17 @@
+*.iml
+/.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+/gradle
+.externalNativeBuild
+gradlew
+gradlew.bat
+/example/build
+/glogin/build
+
 # Built application files
 *.apk
 *.ap_
