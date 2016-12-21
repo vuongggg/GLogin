@@ -7,7 +7,7 @@ Support Garena login
  1. Include the library as local library project or add the dependency in your build.gradle.
         
         dependencies {
-            compile 'com.glogin:glogin:0.1'
+            compile 'com.glogin:glogin:0.3'
         }
         
  2. Define GLoginActivity in your Manifest
@@ -71,4 +71,6 @@ Support Garena login
 # Customization
 
  * `format` Display format of GLoginButton, include `'icon_only'`, `'text_only'`, `'text_with_icon'`
+ * `text_size` Custom button text size
+ * `icon_padding`Set padding of Garena icon
  
