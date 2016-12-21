@@ -59,6 +59,12 @@ public class GLoginButton extends LinearLayout {
         if (attrs != null) {
             TypedArray typedArray = getContext().obtainStyledAttributes(attrs, R.styleable.GLoginButton);
             int format = typedArray.getInt(R.styleable.GLoginButton_format, 0);
+            int iconPadding = (int) typedArray.getDimension(R.styleable.GLoginButton_icon_padding, 0);
+            imgGarenaIcon.setPadding(iconPadding, iconPadding, iconPadding, iconPadding);
+            float textSize = typedArray.getDimension(R.styleable.GLoginButton_text_size, -1);
+            if (textSize >= 0) {
+                txtLogin.getPaint().setTextSize(textSize);
+            }
             setFormat(format);
         }
     }

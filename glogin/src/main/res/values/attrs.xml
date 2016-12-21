@@ -8,5 +8,9 @@
 
     <declare-styleable name="GLoginButton">
         <attr name="format"/>
+        <attr name="icon_padding"
+            format="dimension"/>
+        <attr name="text_size"
+            format="dimension"/>
     </declare-styleable>
 </resources>
